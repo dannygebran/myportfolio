@@ -1,0 +1,14 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
+
+
+html {
+  font-family: 'Oxygen', sans-serif, "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+body {
+  background: linear-gradient(to right, #fff, #fff);
+	align-content: center;
+}
