@@ -122,18 +122,6 @@
 				color: _palette(accent1) !important;
 			}
 
-			&.color2 {
-				color: _palette(accent2) !important;
-			}
-
-			&.color3 {
-				color: _palette(accent3) !important;
-			}
-
-			&.color4 {
-				color: _palette(accent4) !important;
-			}
-
 			&:hover {
 				background-color: _palette(accent3);
 			}

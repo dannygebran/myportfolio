@@ -11,50 +11,11 @@
 		$darken: 3;
 		$desaturate: 3;
 
-		&.color0 {
-			@include gradient-background(false, 1, 20%, 60%);
-		}
 
 		&.color1 {
 			@include gradient-background;
 			background-color: _palette(accent1);
 		}
-
-		&.color2 {
-			@include gradient-background;
-			background-color: _palette(accent2);
-		}
-
-		&.color3 {
-			@include gradient-background;
-			background-color: _palette(accent3);
-		}
-
-		&.color4 {
-			@include gradient-background;
-			background-color: _palette(accent4);
-		}
-
-		&.color1-alt {
-			@include gradient-background(false, $opacity);
-			background-color: desaturate(darken(_palette(accent1), $darken), $desaturate);
-		}
-
-		&.color2-alt {
-			@include gradient-background(false, $opacity);
-			background-color: desaturate(darken(_palette(accent2), $darken), $desaturate);
-		}
-
-		&.color3-alt {
-			@include gradient-background(false, $opacity);
-			background-color: desaturate(darken(_palette(accent3), $darken), $desaturate);
-		}
-
-		&.color4-alt {
-			@include gradient-background(false, $opacity);
-			background-color: desaturate(darken(_palette(accent4), $darken), $desaturate);
-		}
-	}
 
 	.panel {
 		@include vendor('display', 'flex');
@@ -182,42 +143,6 @@
 			@include gradient-background-small;
 			background-color: _palette(accent1);
 		}
-
-		&.color2 {
-			@include gradient-background-small;
-			background-color: _palette(accent2);
-		}
-
-		&.color3 {
-			@include gradient-background-small;
-			background-color: _palette(accent3);
-		}
-
-		&.color4 {
-			@include gradient-background-small;
-			background-color: _palette(accent4);
-		}
-
-		&.color1-alt {
-			@include gradient-background-small(false, $opacity);
-			background-color: desaturate(darken(_palette(accent1), $darken), $desaturate);
-		}
-
-		&.color2-alt {
-			@include gradient-background-small(false, $opacity);
-			background-color: desaturate(darken(_palette(accent2), $darken), $desaturate);
-		}
-
-		&.color3-alt {
-			@include gradient-background-small(false, $opacity);
-			background-color: desaturate(darken(_palette(accent3), $darken), $desaturate);
-		}
-
-		&.color4-alt {
-			@include gradient-background-small(false, $opacity);
-			background-color: desaturate(darken(_palette(accent4), $darken), $desaturate);
-		}
-	}
 
 	@include breakpoint(small) {
 		.panel {

@@ -188,31 +188,6 @@
 			}
 		}
 
-		&.color2 {
-			& + label {
-				&:before {
-					color: _palette(accent2);
-				}
-			}
-		}
-
-		&.color3 {
-			& + label {
-				&:before {
-					color: _palette(accent3);
-				}
-			}
-		}
-
-		&.color4 {
-			& + label {
-				&:before {
-					color: _palette(accent4);
-				}
-			}
-		}
-	}
-
 	input[type="checkbox"] {
 		& + label {
 			&:before {
